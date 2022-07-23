@@ -1,0 +1,10 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    background-color: #1f6feb;
+    cursor: pointer;
+    border-radius: 15px;
+    color: #fff;
+}
