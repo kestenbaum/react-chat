@@ -2,13 +2,11 @@ import React from 'react';
 import MainButton from "./UI/button/MainButton";
 
 const Login = () => {
-    return (
-        <div>
-            <MainButton>
-                Login
-            </MainButton>
-        </div>
-    );
+    const user = true
+
+    return user
+        ?   <MainButton>LogIn</MainButton>
+        :   <MainButton>LogOut</MainButton>
 };
 
 export default Login;
